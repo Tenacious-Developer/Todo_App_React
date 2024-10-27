@@ -1,0 +1,19 @@
+/* App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .app-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+  }
+  

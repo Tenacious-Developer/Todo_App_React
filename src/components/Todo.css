@@ -1,0 +1,63 @@
+/* Todo.css */
+
+.todo-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: max-width 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+  
+/* Increase card size on large screens */
+@media (min-width: 768px) {
+.todo-container {
+    max-width: 600px;
+    padding: 30px;
+}
+}
+
+@media (min-width: 1200px) {
+.todo-container {
+    max-width: 1200px;
+    padding: 40px;
+}
+}
+
+.todo-header {
+font-size: 1.5em;
+margin-bottom: 20px;
+text-align: center;
+color: #1e1e1e;
+}
+
+.todo-input-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.todo-input {
+width: 100%;
+padding: 8px;
+margin-right: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.add-button {
+background-color: #0072b2;
+color: white;
+border: none;
+padding: 8px 12px;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.add-button:hover {
+background-color: #005a8c;
+}
+  
